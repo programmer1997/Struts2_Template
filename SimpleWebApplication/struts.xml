@@ -6,9 +6,13 @@
 <struts>
 	<constant name="struts.devMode" value="true" />
  
-	<package name="hellodemo" extends="struts-default">
+	<package name="default" extends="struts-default">
 		<action name="index">
 			<result>index.jsp</result>
+		</action>
+		<action name="login" class="/SimpleWebApplication/src/controller/LoginController.java" >
+		<result name="success">success.jsp</result>
+         <result name="failure">login.jsp</result>
 		</action>
 	</package>
 </struts>

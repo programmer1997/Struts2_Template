@@ -61,6 +61,8 @@
 <s:password name="password" cssClass="fields">
 </s:password>
 <s:submit value="Login" cssClass="button"></s:submit>
+<br>
+Your login attempt was unsuccessful
 </div>
 </s:form>
 
